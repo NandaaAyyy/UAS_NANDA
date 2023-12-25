@@ -1,0 +1,51 @@
+:root {
+    --primary: #eb28cb;
+    --secondary: #4d50f1a9;
+    --light: #ECF4FF;
+    --dark: #120F2D;
+}
+
+
+h1,
+h2,
+.font-weight-bold {
+    font-weight: 650 !important ;
+}
+
+h3,
+h4,
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+
+.btn {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+
+.blog-date::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: -25px;
+    left: 0;
+    border: 13px solid;
+    border-color: transparent #D34351 #D34351 transparent;
+    z-index: -1;
+}
+
+.tampil_gambar {
+    position: center;
+    height: 170px;
+    weight: 160px;
+    color:cadetblue
+}
