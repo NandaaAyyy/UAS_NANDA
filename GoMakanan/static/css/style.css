@@ -1,8 +1,9 @@
 :root {
-    --primary: #eb28cb;
+    --primary: #28eb28;
     --secondary: #4d50f1a9;
     --light: #ECF4FF;
     --dark: #120F2D;
+    scroll-behavior: smooth;
 }
 
 
@@ -23,29 +24,37 @@ h6,
 .font-weight-medium {
     font-weight: 500 !important;
 }
+client_section .client_container .img-box {
+    width: 150px;
+    border: 5px solid #7f7f31;
+    border-radius: 100%;
+  }
+  
+  .client_section .client_container .img-box img {
+    width: 100%;
+  }
+  
+  .client_section .client_container .detail-box {
+    margin-top: 10px;
+  }
+  
+  .client_section .client_container .detail-box h4 {
+    text-transform:capitalize;
+    color: #1d1b28;
+    font-weight: normal;
+  }
+  
+  .client_section .client_container .detail-box h6 {
+    text-transform: uppercase;
+    color: #7f7f31;
+  }
+  
+  .client_section .client_container .detail-box p {
+    color: #1d1b28;
+    margin: 20px;
+  }
+  
+  .client_section .client_container .detail-box img {
+    width: 60px;
+  }
 
-.btn {
-    font-family: 'Jost', sans-serif;
-    font-weight: 600;
-    transition: .5s;
-}
-
-
-.blog-date::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: -25px;
-    left: 0;
-    border: 13px solid;
-    border-color: transparent #D34351 #D34351 transparent;
-    z-index: -1;
-}
-
-.tampil_gambar {
-    position: center;
-    height: 170px;
-    weight: 160px;
-    color:cadetblue
-}
