@@ -72,3 +72,11 @@ client_section .client_container .img-box {
   .footer_section a {
     color: #fefdfc;
   }
+
+  .col-lg-4 wow slideInUp{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  
