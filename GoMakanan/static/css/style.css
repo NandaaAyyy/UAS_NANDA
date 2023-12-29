@@ -16,7 +16,7 @@ h2,
 h3,
 h4,
 .font-weight-semi-bold {
-    font-weight: 600 !important;
+    font-weight: 500 !important;
 }
 
 h5,
@@ -35,7 +35,7 @@ client_section .client_container .img-box {
   }
   
   .client_section .client_container .detail-box {
-    margin-top: 60px;
+    margin-top: 30px;
   }
   
   .client_section .client_container .detail-box h4 {
@@ -64,19 +64,20 @@ client_section .client_container .img-box {
   }
   
   .footer_section p {
-    margin: 0;
+    margin: auto;
     text-align: center;
     color: #fefdfc;
   }
   
   .footer_section a {
-    color: #fefdfc;
+    color: #fcfdfe3a;
   }
 
-  .col-lg-4 wow slideInUp{
+    .wow{
     display:flex;
     justify-content: center;
     margin: auto;
   }
+
 
   
