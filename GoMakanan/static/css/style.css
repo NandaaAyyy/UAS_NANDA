@@ -4,6 +4,7 @@
     --light: #ECF4FF;
     --dark: #120F2D;
     scroll-behavior: smooth;
+   
 }
 
 
@@ -24,53 +25,24 @@ h6,
 .font-weight-medium {
     font-weight: 500 !important;
 }
-client_section .client_container .img-box {
-    width: 130px;
-    border: 5px solid #7f3165;
-    border-radius: 100%;
-  }
-  
-  .client_section .client_container .img-box img {
-    width: 20px;
-  }
-  
-  .client_section .client_container .detail-box {
-    margin-top: 30px;
-  }
-  
-  .client_section .client_container .detail-box h4 {
-    text-transform:uppercase;
-    color: #1d1b28;
-    font-weight: normal;
-  }
-  
-  .client_section .client_container .detail-box h6 {
-    text-transform: uppercase;
-    color: #7f7f31;
-  }
-  
-  .client_section .client_container .detail-box p {
-    color: #1d1b28;
-    margin: 20px;
-  }
-  
-  .client_section .client_container .detail-box img {
-    width: 60px;
-  }
-  .footer_section {
-    background-color: #252525;
-    padding: 20px;
-    background-color: #2d3b7a;
-  }
-  
+
+.img-box img{
+  padding-top: 20px;
+  height: 50vh ;
+  width: 200vh;
+  margin: auto;
+  margin-left: 20px;
+  margin-bottom: 80px;
+
+}
   .footer_section p {
     margin: auto;
     text-align: center;
-    color: #fefdfc;
+    color: #fcfcfe3d;
   }
   
   .footer_section a {
-    color: #fcfdfe3a;
+    color: #fefcfd3a;
   }
   
 .destination img {
@@ -83,13 +55,13 @@ client_section .client_container .img-box {
     }
   
 .border{
-    display:flex;
-    justify-content: center;
-    margin: auto;
-    padding-left: 10px;
-    padding-bottom: 50vh;
-    width: 100%;
-    flex-wrap: wrap;
+  display:flex;
+  justify-content: center;
+  margin: auto;
+  padding-left: 10px;
+  padding-bottom: 30vh;
+  width: 100%;
+  flex-wrap: wrap;
     
 
   }
@@ -99,7 +71,7 @@ client_section .client_container .img-box {
     width: 300px;
     border: 2px solid #1d1b28;
     margin: auto;
-    margin-bottom: 400px;
+    margin-bottom: 150px;
     margin-left: 30px;
   }
   .gambar img{
