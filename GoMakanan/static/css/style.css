@@ -4,7 +4,6 @@
     --light: #ECF4FF;
     --dark: #120F2D;
     scroll-behavior: smooth;
-   
 }
 
 
@@ -35,25 +34,34 @@ h6,
   margin-bottom: 80px;
 
 }
+.pesan p {
+  background-color: #252525;
+  padding: 20px;
+  background-color: #7a772d;
+  text-align: center;
+
+}
+
   .footer_section p {
     margin: auto;
     text-align: center;
-    color: #fcfcfe3d;
+    color: #fefcfc3d;
   }
   
   .footer_section a {
-    color: #fefcfd3a;
+    color: #fefcfce8;
   }
-  
-.destination img {
-  transition: .3s;
-  
-}
 
-.destination a:hover img {
-  transform: scale(1.2);
-    }
-  
+  .section-title{
+    margin-top: 50px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+  }
+  .header{
+    background-color: rgba(157, 255, 0, 0.089); 
+    padding: 10px; 
+    text-align: center;
+}
 .border{
   display:flex;
   justify-content: center;
@@ -67,19 +75,43 @@ h6,
   }
 
   .rowbagian{
-    height: 200x;
+    height: 300x;
     width: 300px;
-    border: 2px solid #1d1b28;
+    border: 2px solid #fefffc;
     margin: auto;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     margin-left: 30px;
   }
   .gambar img{
-    width: 100%;
-    height: 100%;
-  }
-
+    width: 300px;
+    height: 300px;
     
+}
+.gambar:hover img{
+  transform: scale(1.1);
+}
+.gambar.btn{
+  background: #FFFFFF;
+  color: var(--primary);
+  border-radius: 20px;
+  border-bottom: 1px solid var(--primary);
+}
+.footer_section {
+  background-color: #252525;
+  padding: 20px;
+  background-color: #7a772d;
+}
+
+.footer_section text {
+  margin: 0;
+  text-align: center;
+  color: #fefdfc;
+}
+
+.footer_section a {
+  color: #fefdfc;
+}
+
 
 
   
