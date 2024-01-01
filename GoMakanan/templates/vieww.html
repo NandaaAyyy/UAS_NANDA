@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormPembeli</title>
+    <link href="{% static 'css/add-style.css' %}" rel="stylesheet"/>
+</head>
+<body>
+    <div class judul>
+        <p>
+            Form ini berisi sekumpulan pesanan dari pembeli
+        </p>
+
+    </div>
+   
+
+<form action ="" method="post">
+    {{form}}
+    <h2>FORM PESANAN PEMBELI</h2>
+    <div>
+        <label>Nama Pembeli</label>
+        {{form.Nama}}
+    </div>
+    {{form.NO_ANTREAN}}
+    {{form.PESANAN}}
+    {{form.Jumlah_Makanan}}
+    {{form.Jumlah_Minuman}}
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

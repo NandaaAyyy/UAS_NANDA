@@ -16,7 +16,8 @@ SECRET_KEY = 'django-insecure-0hew!r8p!7zy($!ev*tamm_j&vpz#z+s2pzc1+pkaocl$hqx&3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+]
 
 
 # Application definition
@@ -28,7 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'GoMakanan'
+    'GoMakanan',
 ]
 
 MIDDLEWARE = [
@@ -101,7 +102,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Jakarta'
 
 USE_I18N = True
 
@@ -117,3 +118,4 @@ STATICFILES_DIR =(
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles',)
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+

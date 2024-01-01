@@ -111,6 +111,16 @@ h6,
 .footer_section a {
   color: #fefdfc;
 }
+.img-boxx img{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 50vh ;
+  width: 200vh;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 80px;
+}
 
 
 
